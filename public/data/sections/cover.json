@@ -1,0 +1,142 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Hey there!",
+                "title_short_nav": "Home",
+                "title_long_prefix": "Hey there!",
+                "title_long": "I'm {{Balamurali}} 👋"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "India",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "pi pi-map-marker"
+                },
+                {
+                    "id": 2,
+                    "label": "baalaapnl@gmail.com",
+                    "link": {"href": "mailto:baalaapnl@gmail.com", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                },
+                {
+                    "id": 3,
+                    "label": "@baalaa06",
+                    "link": {"href": "https://github.com/baalaa06", "tooltipString": "see_on_github"},
+                    "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 4,
+                    "label": "LinkedIn",
+                    "link": {"href": "https://www.linkedin.com/in/baalaa06", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-linkedin"
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{My story}} in a nutshell"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/profile-picture.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I'm a passionate {{full-stack developer}} and {{ML engineer}} with 2+ years of hands-on experience building scalable web applications, REST APIs, and intelligent systems. I specialize in creating intuitive user experiences, writing maintainable backend logic, and developing {{machine learning models}} with high accuracy.</p><p>My expertise spans across {{JavaScript}}, {{Python}}, {{React}}, {{Node.js}}, {{FastAPI}}, and {{ML frameworks}} like TensorFlow and PyTorch. I've built projects ranging from {{stock prediction models}} with 90% accuracy to {{real-time vehicle tracking systems}} achieving 97% MOTA accuracy.</p><p>Currently pursuing my B.S. in Data Science from {{IIT Madras}} and B.E. in Computer Science, I'm passionate about solving complex problems through code and continuously learning cutting-edge technologies.</p><p>Ready to build something [[amazing together]]? Let's connect! 🚀</p>"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 4,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Personal {{interests}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{UI}} Design & Video Editing",
+                            "text": "Creating beautiful interfaces, smooth user experiences, and beginner-level video editing."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{ML}} Research & Algorithms",
+                            "text": "Understanding and simulating machine learning algorithms and related research work."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Exploring}} New Technologies",
+                            "text": "Gaining deep knowledge in emerging frameworks, tools, and cutting-edge technologies."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-window-restore",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Clean}} Code",
+                            "text": "Writing reusable, maintainable components and architecture."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

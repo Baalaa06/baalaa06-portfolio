@@ -1,0 +1,85 @@
+@import "/src/styles/extend.scss";
+
+// Override body styles for single page layout
+body {
+    position: relative !important;
+    overflow-y: auto !important;
+    overflow-x: hidden;
+    height: auto !important;
+}
+
+// Ensure the layout container allows scrolling
+.layout {
+    height: auto !important;
+    min-height: 100vh;
+}
+
+.layout-content {
+    height: auto !important;
+    padding: 0;
+}
+
+.single-page-layout {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.single-page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    
+    @include media-breakpoint-down(md) {
+        padding: 1rem;
+    }
+}
+
+.single-page-section {
+    margin-bottom: 4rem;
+    scroll-margin-top: 2rem;
+    
+    &:last-child {
+        margin-bottom: 2rem;
+    }
+    
+    @include media-breakpoint-down(md) {
+        margin-bottom: 3rem;
+    }
+}
+
+.single-page-section-header {
+    margin-bottom: 2rem;
+    text-align: center;
+    
+    .section-title-prefix {
+        font-size: 1.1rem;
+        color: var(--theme-texts-light);
+        margin-bottom: 0.5rem;
+    }
+    
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--theme-texts);
+        margin: 0;
+        
+        @include media-breakpoint-down(md) {
+            font-size: 2rem;
+        }
+    }
+}
+
+.single-page-section-content {
+    .article {
+        margin-bottom: 2rem;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Smooth scrolling
+html {
+    scroll-behavior: smooth;
+}

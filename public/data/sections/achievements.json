@@ -1,0 +1,312 @@
+{
+    "title":  {
+                  "locales":  {
+                                  "en":  {
+                                             "title_short":  "Awards",
+                                             "title_short_nav":  "Achievements",
+                                             "title_long_prefix":  "Here are my",
+                                             "title_long":  "Career {{Achievements}}"
+                                         }
+                              }
+              },
+    "articles":  [
+                     {
+                         "id":  1,
+                         "component":  "ArticleCards",
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Certifications"
+                                                }
+                                     },
+                         "settings":  {
+                                          "order_items_by":  "id",
+                                          "order_items_sort":  "asc"
+                                      },
+                         "items":  [
+                                       {
+                                           "id":  1,
+                                           "img":  "/photos/pm.jpg",
+                                           "faIcon":  "fa-solid fa-life-ring",
+                                           "faIconColors":  {
+                                                                "bg":  "#326CE5",
+                                                                "fill":  "#EEE"
+                                                            },
+                                           "date":  {
+                                                        "year":  2024,
+                                                        "month":  7
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/file/d/17hNhSUDWxiWEargV8aCjGNmQqlGf_e8W/view?usp=sharing",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Product Management Bootcamp",
+                                                                      "text":  "Certified PM analyst"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  2,
+                                           "img":  "/photos/quantum.jpg",
+                                           "faIconColors":  {
+                                                                "bg":  "#FFD700",
+                                                                "fill":  "#111"
+                                                            },
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  12
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/file/d/1gK5rF6HDCcttCnvBta4Hf5hbez3JAmxL/view?usp=drive_link",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Quantum Computing by Indo-US NEP",
+                                                                      "text":  "Quantum computing developer"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  3,
+                                           "img":  "/photos/cyber.jpg",
+                                           "faIconColors":  {
+                                                                "bg":  "#FFD700",
+                                                                "fill":  "#111"
+                                                            },
+                                           "date":  {
+                                                        "year":  2024,
+                                                        "month":  8
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/file/d/17doO1eoOb5t03sDIDfADjFI2tmHrAFQF/view?usp=sharing",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Cyber security workshop",
+                                                                      "text":  "Cyber security analyst"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  4,
+                                           "img":  "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-68769af0c5160_whatsapp_image_2025-07-15_at_23.45.45.jpeg?d=200x200",
+                                           "faIconColors":  {
+                                                                "bg":  "#007396",
+                                                                "fill":  "#EEE"
+                                                            },
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  7
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/file/d/1Aakjnn317o7PFDu8Jw-LdLuoccABI9ex/view?usp=sharing",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Codeveda 2025 Finalist",
+                                                                      "text":  "Reached the finals"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  5,
+                                           "img":  "/photos/gfg160.jpg",
+                                           "faIconColors":  {
+                                                                "bg":  "#007396",
+                                                                "fill":  "#EEE"
+                                                            },
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  8
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/file/d/1tDA343RV5HI4UaLtXQFn9CYpo-T2cnh9/view?usp=sharing",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "GFG 160 DSA Completion",
+                                                                      "text":  "Conquered 160 DSA problems on GFG"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  6,
+                                           "img":  "/photos/dt.png",
+                                           "faIconColors":  {
+                                                                "bg":  "#47A248",
+                                                                "fill":  "#EEE"
+                                                            },
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  8
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/file/d/18-qaSLwM1SI0skgviMeeEv9O3Hv6Z9KO/view?usp=sharing",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Design thinking",
+                                                                      "text":  "Design thinking Certified Dev"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  7,
+                                           "img":  "/photos/others.jpg",
+                                           "faIconColors":  {
+                                                                "bg":  "#47A248",
+                                                                "fill":  "#EEE"
+                                                            },
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  10
+                                                    },
+                                           "link":  {
+                                                        "href":  "https://drive.google.com/drive/folders/17sVDOfvBbhqm8RDS7bRsf4OHyTmoDPbd?usp=sharing",
+                                                        "tooltipString":  "see_certification"
+                                                    },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Others",
+                                                                      "text":  "Other Certifications"
+                                                                  }
+                                                       }
+                                       }
+                                   ]
+                     },
+                     {
+                         "id":  2,
+                         "component":  "ArticleThread",
+                         "locales":  {
+                                         "en":  {
+                                                    "title":  "Awards"
+                                                }
+                                     },
+                         "settings":  {
+                                          "max_rows_collapse_threshold":  4,
+                                          "order_items_by":  "date",
+                                          "order_items_sort":  "asc"
+                                      },
+                         "items":  [
+                                       {
+                                           "id":  1,
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  9
+                                                    },
+                                           "preview":  {
+                                                           "links":  [
+                                                                         {
+                                                                             "href":  "https://drive.google.com/file/d/1azP3xmsi1Nk6GrWPu0GNriPT4cX2HhQa/view?usp=sharing",
+                                                                             "tooltipString":  "read",
+                                                                             "faIcon":  "fa-solid fa-file-pdf"
+                                                                         }
+                                                                     ],
+                                                           "screenshots":  [
+
+                                                                           ],
+                                                           "screenshotsAspectRatio":  "",
+                                                           "youtubeVideo":  ""
+                                                       },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Data Science Foundational level Certificate - IITM BS",
+                                                                      "province":  "Chennai",
+                                                                      "country":  "India",
+                                                                      "institution":  "IITM",
+                                                                      "text":  "Awarded the foundational level certificate after completing all corresponding Data Science courses"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  2,
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  1
+                                                    },
+                                           "preview":  {
+                                                           "links":  [
+                                                                         {
+                                                                             "href":  "https://drive.google.com/file/d/1QbJSREcjbobBmE5hVfln_xCRiIznVUbf/view?usp=drive_link",
+                                                                             "tooltipString":  "see_on_drive",
+                                                                             "faIcon":  "fa-brands fa-file-pdf"
+                                                                         }
+                                                                     ],
+                                                           "screenshots":  [
+
+                                                                           ],
+                                                           "screenshotsAspectRatio":  "",
+                                                           "youtubeVideo":  ""
+                                                       },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "IITM BS Merit Based ICSR Scholarship Awardee",
+                                                                      "province":  "Chennai",
+                                                                      "country":  "India",
+                                                                      "institution":  "IIT Madras",
+                                                                      "text":  "Recognized as a top student and awarded with the ICSR based scholarship for Merit Based means ",
+                                                                      "list":  [
+                                                                               ]
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  3,
+                                           "date":  {
+                                                        "year":  2025,
+                                                        "month":  11
+                                                    },
+                                           "preview":  {
+                                                           "links":  [
+                                                                         {
+                                                                             "href":  "https://www.hackerrank.com/profile/baalaapannal",
+                                                                             "tooltipString":  "HackerRank",
+                                                                             "faIcon": "fa-solid fa-code"
+                                                                         },
+                                                                         {
+                                                                             "href":  "https://leetcode.com/u/Baalaa06/",
+                                                                             "tooltipString":  "Leetcode",
+                                                                             "faIcon": "fa-solid fa-terminal"
+                                                                         },
+                                                                         {
+                                                                             "href":  "https://www.geeksforgeeks.org/user/baalaaptt2a/",
+                                                                             "tooltipString":  "GeeksforGeeks",
+                                                                             "faIcon": "fa-solid fa-leaf"
+                                                                         },
+                                                                         {
+                                                                             "href":  "https://codeforces.com/profile/baalaa06",
+                                                                             "tooltipString":  "CodeForces",
+                                                                             "faIcon": "fa-solid fa-trophy"
+                                                                         },
+                                                                         {
+                                                                             "href":  "https://www.codechef.com/users/baalaa06",
+                                                                             "tooltipString":  "CodeChef",
+                                                                             "faIcon": "fa-solid fa-utensils"
+                                                                         }
+                                                                     ],
+                                                           "screenshots":  [
+
+                                                                           ],
+                                                           "screenshotsAspectRatio":  "",
+                                                           "youtubeVideo":  ""
+                                                       },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Problem Solver",
+                                                                      "province":  "",
+                                                                      "country":  "India",
+                                                                      "institution":  "",
+                                                                      "text":  "Currently an active problem solver on many platforms."
+                                                                  }
+                                                       }
+                                       }
+                                   ]
+                     }
+                 ]
+}

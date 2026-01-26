@@ -1,0 +1,62 @@
+/**
+ * @author Bala
+ * @description Global presets for the template.
+ */
+
+@import "themes/variables-theme-dark";
+@import "themes/variables-theme-light";
+
+/** Overriding Bootstrap's contrast ratio. **/
+$min-contrast-ratio: 1.5 !default;
+
+/** Typography **/
+$font-family-base: 'Inter', 'Segoe UI', system-ui, sans-serif;
+$headings-font-family: 'Space Grotesk', 'Inter', sans-serif;
+
+/** Static Colors **/
+$loader-background: #0a0a0f;
+$loader-contrast: #ffffff;
+$primary: #6366f1;
+
+/** Z-Indexing **/
+$z-index-background: -1;
+$z-index-content: 0;
+$z-index-section-inactive: 10;
+$z-index-section-active: 20;
+$z-index-section-floating-items: 30;
+$z-index-sidebar: 40;
+$z-index-nav-tabs: 50;
+$z-index-pop-over: 1200;
+$z-index-modal: 1210;
+$z-index-notifications: 1220;
+$z-index-dialogs: 1230;
+$z-index-activity-spinner: 1240;
+$z-index-animated-cursor: 1250;
+$z-index-loader: 1260;
+
+/** Layout Constraints - General **/
+$max-breakpoint-for-tabbed-interface: md;
+$standard-border-radius: 16px;
+$default-card-spacing: 1rem;
+$default-card-spacing-mobile: 0.75rem;
+$timeline-merge-mode-breakpoint: sm;
+$glass-blur: 20px;
+$shadow-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+$shadow-elevation-2: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+$shadow-elevation-3: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+/** Mobile Optimizations **/
+$mobile-padding: 1rem;
+$mobile-margin: 0.5rem;
+$mobile-font-scale: 0.9;
+
+/** Responsive Breakpoints **/
+$mobile-max: 767px;
+$tablet-min: 768px;
+$desktop-min: 1024px;
+
+/** Layout Constraints - Nav **/
+$nav-tabs-height: 55px;
+$nav-tabs-height-with-offset: 75px;
+$nav-pills-height: 50px;
+$nav-pills-height-compressed: 50px;

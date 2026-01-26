@@ -1,0 +1,93 @@
+/**
+ * Professional enhancements for mobile and desktop
+ */
+
+// Enhanced mobile responsiveness
+@media (max-width: 768px) {
+  // Force full width usage
+  .layout-content {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .section-body {
+    padding: 1rem !important;
+    margin: 0 !important;
+  }
+  
+  .article-cards-items {
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .article-stack-items {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0.75rem;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .nav-header-mobile {
+    backdrop-filter: blur(10px);
+    background: rgba(var(--bs-dark-rgb), 0.95);
+    padding: 1rem !important;
+    margin: 0 !important;
+  }
+  
+  // Larger text on mobile
+  .section-title {
+    font-size: 2rem !important;
+  }
+  
+  .article-text {
+    font-size: 1rem !important;
+  }
+  
+  // Remove Bootstrap container padding
+  .container,
+  .container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+// Professional card styling
+.article-cards-item,
+.article-portfolio-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Enhanced timeline styling
+.article-timeline-item {
+  .timeline-content {
+    border-left: 3px solid var(--bs-primary);
+    padding-left: 1.5rem;
+  }
+}
+
+// Professional button styling
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+// Enhanced typography
+.section-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.text-primary {
+  background: linear-gradient(135deg, var(--bs-primary), var(--bs-info));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -1,0 +1,103 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Education",
+                "title_short_nav": "Education",
+                "title_long_prefix": "This is my",
+                "title_long": "{{Education}} Background"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "/photos/iitmadras.png",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#6366f1",
+                        "fill": "#ffffff"
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 1
+                    },
+                    "dateEnd": {
+                        "year": 2028,
+                        "month": 1
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Bachelor of Science}} (B.S)",
+                            "province": "",
+                            "country": "India",
+                            "institution": "University",
+                            "text": "Pursuing Bachelor of Science with focus on [[computer science fundamentals]], programming, and software development. Gained strong foundation in:",
+                            "list": [
+                                "Data Structures and Algorithms",
+                                "System Commands - Unix/Linux",
+                                "Modern Application Development(MAD)",
+                                "Business Analytics",
+                                "Statistics and depp dive of ML"
+                            ],
+                            "tags": [
+                                "Data Science",
+                                "Programming",
+                                "Algorithms",
+                                "Shell- Linux"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "/photos/cit.png",
+                    "faIcon": "fa-solid fa-graduation-cap",
+                    "faIconColors": {
+                        "bg": "#6366f1",
+                        "fill": "#ffffff"
+                    },
+                    "dateStart": {
+                        "year": 2023,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2027,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Bachelor of Engineering}} (B.E)",
+                            "province": "",
+                            "country": "India",
+                            "institution": "University",
+                            "text": "Pursuing Bachelor of Engineering with focus on [[computer science fundamentals]], programming, and software development. Gained strong foundation in:",
+                            "list": [
+                                "Data Structures and Algorithms",
+                                "Object-Oriented Programming",
+                                "Database Management Systems",
+                                "Software Engineering Principles",
+                                "Web Development Technologies"
+                            ],
+                            "tags": [
+                                "Computer Science",
+                                "Programming",
+                                "Algorithms",
+                                "Software Engineering"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

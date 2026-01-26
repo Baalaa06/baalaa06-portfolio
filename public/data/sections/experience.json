@@ -1,0 +1,140 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-rocket",
+                    "faIconColors": {
+                        "bg": "#6366f1",
+                        "fill": "#ffffff"
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 5
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 6
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Full-Stack}} Intern",
+                            "province": "",
+                            "country": "India",
+                            "institution": "CIT PDC",
+                            "text": "Building and maintaining full-stack web applications using modern technologies. Working on:",
+                            "list": [
+                                "React.js applications with hooks and context",
+                                "FastAPI and Flask backend services",
+                                "PostgreSQL database design and optimization",
+                                "REST API development with authentication",
+                                "Admin panels and dashboard systems",
+                                "UI component optimization and performance"
+                            ],
+                            "tags": [
+                                "React",
+                                "FastAPI",
+                                "PostgreSQL",
+                                "JavaScript",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#6366f1",
+                        "fill": "#ffffff"
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 10
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 11
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "React Native Developer Intern",
+                            "province": "",
+                            "country": "India",
+                            "institution": "AGX Solutions",
+                            "text": "Building and maintaining React Native web application using modern technologies. Worked on:",
+                            "list": [
+                                "React native applications with hooks and context",
+                                "FastAPI and Flask backend services",
+                                "PostgreSQL database design and optimization",
+                                "REST API development with authentication"
+                            ],
+                            "tags": [
+                                "React Native",
+                                "JavaScript",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#6366f1",
+                        "fill": "#ffffff"
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "dateEnd": {
+                        "year": 2025,
+                        "month": 12
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ML/DL Intern",
+                            "province": "",
+                            "country": "India",
+                            "institution": "Valkron Dynamics",
+                            "text": "Built full drone related ML tech algorithms using modern technologies. Worked on:",
+                            "list": [
+                                "Kalman filter and hungarian algorithms",
+                                "Drone hardware to software specs",
+                                "DeepSORT tracking",
+                                "ByteTrack Algorithm"
+                            ],
+                            "tags": [
+                                "JavaScript",
+                                "Python",
+                                "Seaborn"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

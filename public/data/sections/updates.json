@@ -1,0 +1,85 @@
+{
+    "title":  {
+                  "locales":  {
+                                  "en":  {
+                                             "title_short":  "Life recently",
+                                             "title_short_nav":  "Updates",
+                                             "title_long_prefix":  "A look at my",
+                                             "title_long":  "Recent {{Updates}}"
+                                         }
+                              }
+              },
+    "articles":  [
+                     {
+                         "id":  1,
+                         "component":  "ArticleFacts",
+                         "locales": {},
+                         "settings":  {
+                                          "order_items_by":  "id",
+                                          "order_items_sort":  "asc"
+                                      },
+                         "items":  [
+                                       {
+                                           "id":  1,
+                                           "img":  null,
+                                           "faIcon":  "fa-solid fa-tablet-screen-button",
+                                           "faIconColors":  {
+                                                                "bg":  "",
+                                                                "fill":  ""
+                                                            },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "03",
+                                                                      "text":  "Apps Published"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  4,
+                                           "img":  null,
+                                           "faIcon":  "fa-solid fa-diagram-project",
+                                           "faIconColors":  {
+                                                                "bg":  "",
+                                                                "fill":  ""
+                                                            },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "04",
+                                                                      "text":  "Open-source projects"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  5,
+                                           "img":  null,
+                                           "faIcon":  "fa-solid fa-coffee",
+                                           "faIconColors":  {
+                                                                "bg":  "",
+                                                                "fill":  ""
+                                                            },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Core member",
+                                                                      "text":  "Cyber Club CIT"
+                                                                  }
+                                                       }
+                                       },
+                                       {
+                                           "id":  7,
+                                           "img":  null,
+                                           "faIcon":  "fa-solid fa-heart",
+                                           "faIconColors":  {
+                                                                "bg":  "",
+                                                                "fill":  ""
+                                                            },
+                                           "locales":  {
+                                                           "en":  {
+                                                                      "title":  "Infinite",
+                                                                      "text":  "Passion for learning"
+                                                                  }
+                                                       }
+                                       }
+                                   ]
+                     }
+                 ]
+}

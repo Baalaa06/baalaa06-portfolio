@@ -1,0 +1,25 @@
+{
+    "name": "Balamurali",
+
+    "profilePictureUrl": "images/pictures/profile-picture.jpg",
+    "resumePdfUrl": "https://drive.google.com/file/d/your-resume-id/view",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Balamurali",
+            "localized_name_stylized": "{{Bala}}murali",
+            "status_message_available_for_freelance": "Available for opportunities!",
+            "roles": [
+                "Full-Stack Developer",
+                "ML Engineer",
+                "Problem Solver"
+            ],
+            "name_pronunciation_ipa": "/ba-la-mu-ra-li/",
+            "name_pronunciation_audio_url": "/audio/english-name-pronunciation.mp3"
+        }
+    }
+}

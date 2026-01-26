@@ -1,0 +1,71 @@
+@import "/src/styles/extend.scss";
+
+.pinned-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(var(--theme-base-bg-rgb), 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(var(--theme-borders-rgb), 0.2);
+  padding: 0.75rem 0;
+  transition: all 0.3s ease;
+
+  .pinned-header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    
+    .pinned-header-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin: 0;
+      color: var(--theme-texts);
+      text-align: center;
+      
+      @include media-breakpoint-up(md) {
+        text-align: left;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+// Add top padding to body to account for fixed header
+body {
+  padding-top: 60px;
+  
+  @include media-breakpoint-up(md) {
+    padding-top: 70px;
+  }
+}
+
+// Ensure content doesn't overlap with header
+.layout-content {
+  position: relative;
+  z-index: 1;
+}
+
+// Mobile navigation adjustments
+@include media-breakpoint-down(md) {
+  .nav-header-mobile {
+    margin-top: 60px;
+  }
+  
+  .layout-navigation-children-wrapper {
+    padding-bottom: 80px;
+  }
+}
+
+// Mobile specific adjustments
+@include media-breakpoint-down(md) {
+  .pinned-header {
+    padding: 0.5rem 0;
+    
+    .pinned-header-content {
+      padding: 0 0.75rem;
+    }
+  }
+}

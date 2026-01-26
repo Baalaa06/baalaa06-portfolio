@@ -1,0 +1,247 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_web": "Web Apps",
+                    "category_api": "APIs",
+                    "category_ml": "ML/AI"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_web",
+                    "category_api", 
+                    "category_ml"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_ml",
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {
+                        "bg": "#10b981",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/Stocksense-AI-personal-finance-stock-assistant",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Stocksense AI",
+                            "text": "Built stock prediction models with <b>90% accuracy</b>. Implemented <b>LSTM</b>, <b>Random Forest</b>, and <b>Linear Regression</b> for forecasting.",
+                            "tags": [
+                                "Python",
+                                "Machine Learning",
+                                "LSTM",
+                                "Random Forest",
+                                "Linear Regression"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_api",
+                    "img": "",
+                    "faIcon": "fa-solid fa-car",
+                    "faIconColors": {
+                        "bg": "#6366f1",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/vehicle-parking-app",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Vehicle Parking Management System",
+                            "text": "Developed a multi-user system with <b>real-time parking spot tracking</b>. Implemented <b>secure authentication</b> and <b>automated billing workflows</b>.",
+                            "tags": [
+                                "FastAPI",
+                                "PostgreSQL",
+                                "SQLite",
+                                "JWT",
+                                "Real-time Tracking"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-question-circle",
+                    "faIconColors": {
+                        "bg": "#f59e0b",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/quiz-master",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Quiz Master – Web-Based Quiz Management System",
+                            "text": "Built a full-stack quiz management system with <b>admin and user workflows</b> using PHP (PDO) and MySQL. Developed admin tools to manage subjects, chapters, quizzes, and timed MCQ questions. Integrated <b>AJAX-based interactions</b> for smooth navigation.",
+                            "tags": [
+                                "PHP",
+                                "MySQL",
+                                "AJAX",
+                                "Chart.js",
+                                "PDO"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_ml",
+                    "img": "",
+                    "faIcon": "fa-solid fa-shield-alt",
+                    "faIconColors": {
+                        "bg": "#8b5cf6",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/harishvardhan27/IntelliSafe",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "IntelliSafe",
+                            "text": "Built a safety manager using <b>YOLO</b> and <b>CNN</b> for drone-based campus security.",
+                            "tags": [
+                                "Python",
+                                "Machine Learning",
+                                "React Native",
+                                "YOLO",
+                                "CNN"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "",
+                    "faIcon": "fa-solid fa-utensils",
+                    "faIconColors": {
+                        "bg": "#ef4444",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/festival-feast-finder",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Festival Feast Finder – Global Festival Food Explorer",
+                            "text": "Developed an interactive React application to explore <b>festival-specific cuisines</b> across global cultures. Implemented recipe search, category/area/ingredient filters, and random suggestions using <b>Axios-powered API calls</b>. Created meal-planning and nutrition analysis tools.",
+                            "tags": [
+                                "React",
+                                "Axios",
+                                "CSS",
+                                "Glassmorphism UI",
+                                "API Integration"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_ml",
+                    "img": "",
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {
+                        "bg": "#dc2626",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/deepsort",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "DeepSORT Vehicle Tracking System",
+                            "text": "Developed real-time multi-object tracking system achieving <b>97.11% MOTA accuracy</b> with Hungarian algorithm and Kalman filtering. Implemented <b>military/civilian vehicle classification</b> with threat-level analysis processing 424 frames at 2.7 FPS.",
+                            "tags": [
+                                "YOLOv11",
+                                "DeepSORT",
+                                "OpenCV",
+                                "PyTorch",
+                                "Computer Vision"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+@import "/src/styles/extend.scss";
+
+.article-scroll-stack {
+  .skills-scroll-stack {
+    height: 80vh;
+    
+    .skill-card {
+      background: var(--theme-container-background);
+      border: 1px solid var(--theme-boards-background);
+      
+      .skill-card-content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+        .skill-header {
+          display: flex;
+          align-items: center;
+          gap: 1.5rem;
+          margin-bottom: 2rem;
+          
+          .skill-avatar {
+            flex-shrink: 0;
+          }
+          
+          .skill-info {
+            flex: 1;
+            
+            .skill-title {
+              font-size: 1.5rem;
+              font-weight: 600;
+              margin: 0 0 0.5rem 0;
+              color: var(--theme-texts);
+            }
+            
+            .skill-description {
+              font-size: 1rem;
+              color: var(--theme-texts-light);
+              margin: 0;
+            }
+          }
+        }
+        
+        .skill-progress {
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          margin-top: auto;
+          
+          .progress-bar {
+            flex: 1;
+            height: 8px;
+            background: var(--theme-empty);
+            border-radius: 4px;
+            overflow: hidden;
+            
+            .progress-fill {
+              height: 100%;
+              background: var(--theme-primary);
+              border-radius: 4px;
+              transition: width 0.3s ease;
+            }
+          }
+          
+          .progress-text {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--theme-primary);
+            min-width: 40px;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .article-scroll-stack {
+    .skills-scroll-stack {
+      height: 60vh;
+      
+      .skill-card {
+        height: 16rem;
+        padding: 2rem;
+        
+        .skill-card-content {
+          .skill-header {
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            
+            .skill-info {
+              .skill-title {
+                font-size: 1.25rem;
+              }
+              
+              .skill-description {
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
