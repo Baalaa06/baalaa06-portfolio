@@ -37,9 +37,11 @@ function ArticleInlineListItems({ dataWrapper, selectedItemCategoryId}) {
 
     const maxItems = viewport.getValueFromBreakpointHash({
         xxl: 5,
-        xl: 4,
-        sm: 2,
-        default: 2
+        xl: 5,
+        lg: 5,
+        md: 5,
+        sm: 5,
+        default: 5
     })
 
     const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)

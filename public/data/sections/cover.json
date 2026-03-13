@@ -18,7 +18,7 @@
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
-                "display_as_list_if_width_is_lower_than": 380
+                "display_as_list_if_width_is_lower_than": 900
             },
             "items": [
                 {
@@ -44,12 +44,18 @@
                     "label": "LinkedIn",
                     "link": {"href": "https://www.linkedin.com/in/baalaa06", "tooltipString": "open_website"},
                     "faIcon": "fa-brands fa-linkedin"
+                },
+                {
+                    "id": 5,
+                    "label": "Resume",
+                    "link": {"href": "https://drive.google.com/file/d/1QW3c5AfIHnUD0zfK9DqGJ48tFBSavQwa/view?usp=drive_link", "tooltipString": "download_resume"},
+                    "faIcon": "fa-solid fa-file-pdf"
                 }
             ]
         },
 
         {
-            "id": 2,
+            "id": 3,
             "component": "ArticleText",
             "locales": {
                 "en": {"title": "{{My story}} in a nutshell"}

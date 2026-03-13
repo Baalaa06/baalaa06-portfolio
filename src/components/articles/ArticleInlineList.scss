@@ -11,20 +11,40 @@ ul.article-inline-list-items {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+    @include media-breakpoint-down(md) {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
 }
 
 li.article-inline-list-item {
     margin-right: calc($spacing-between-items - 10px);
+    
+    @include media-breakpoint-down(md) {
+        margin-right: 0;
+        width: 100%;
+        padding: 8px 0;
+    }
+    
     @include media-breakpoint-down(sm) {
-        margin-right: calc($spacing-between-items - 12px);
+        margin-right: 0;
     }
 
     &:not(:last-child)::after {
         content: "𐄁";
         color: var(--theme-muted);
         margin-left: $spacing-between-items;
+        
+        @include media-breakpoint-down(md) {
+            display: none;
+        }
+        
         @include media-breakpoint-down(sm) {
-            margin-left: calc($spacing-between-items - 5px);
+            display: none;
         }
     }
 }
@@ -41,6 +61,7 @@ i.article-inline-list-item-icon {
 
     width: 28px;
     height: 28px;
+    
     @include media-breakpoint-down(sm) {
         margin: 0 calc($item-padding - 3px)
     }
@@ -49,12 +70,14 @@ i.article-inline-list-item-icon {
 ul.article-inline-list-items-column-mode {
     flex-direction: column;
     align-items: start;
+    width: 100%;
 
     li.article-inline-list-item {
         margin-right: 0;
-        height: 25px;
+        height: 35px;
         width: 100%;
-        text-align: center;
+        text-align: left;
+        padding: 5px 0;
 
         &:not(:last-child)::after {
             display: none;
