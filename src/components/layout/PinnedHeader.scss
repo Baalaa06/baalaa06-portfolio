@@ -17,18 +17,44 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
     .pinned-header-title {
       font-size: 1.25rem;
       font-weight: 600;
       margin: 0;
       color: var(--theme-texts);
-      text-align: center;
       
       @include media-breakpoint-up(md) {
-        text-align: left;
         font-size: 1.5rem;
       }
+    }
+
+    .pinned-header-resume-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 7px 16px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, var(--theme-primary), var(--theme-secondary));
+      color: #fff;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+      transition: transform 0.15s, box-shadow 0.15s;
+      white-space: nowrap;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        color: #fff;
+      }
+
+      i { font-size: 0.85rem; }
     }
   }
 }

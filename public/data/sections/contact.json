@@ -148,6 +148,24 @@
                             "title": "GeeksforGeeks"
                         }
                     }
+                },
+                {
+                    "id": 7,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "label": "baalaa06",
+                    "link": {
+                        "href": "https://codolio.com/profile/baalaa06",
+                        "tooltipString": "open_website"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Codolio"
+                        }
+                    }
                 }
             ]
         }

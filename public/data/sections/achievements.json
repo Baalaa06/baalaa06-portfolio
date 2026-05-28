@@ -267,27 +267,27 @@
                                                                          {
                                                                              "href":  "https://www.hackerrank.com/profile/baalaapannal",
                                                                              "tooltipString":  "HackerRank",
-                                                                             "faIcon": "fa-solid fa-code"
+                                                                             "imgIcon": "https://cdn.simpleicons.org/hackerrank"
                                                                          },
                                                                          {
                                                                              "href":  "https://leetcode.com/u/Baalaa06/",
                                                                              "tooltipString":  "Leetcode",
-                                                                             "faIcon": "fa-solid fa-terminal"
+                                                                             "imgIcon": "https://cdn.simpleicons.org/leetcode"
                                                                          },
                                                                          {
                                                                              "href":  "https://www.geeksforgeeks.org/user/baalaaptt2a/",
                                                                              "tooltipString":  "GeeksforGeeks",
-                                                                             "faIcon": "fa-solid fa-leaf"
+                                                                             "imgIcon": "https://cdn.simpleicons.org/geeksforgeeks"
                                                                          },
                                                                          {
                                                                              "href":  "https://codeforces.com/profile/baalaa06",
                                                                              "tooltipString":  "CodeForces",
-                                                                             "faIcon": "fa-solid fa-trophy"
+                                                                             "imgIcon": "https://cdn.simpleicons.org/codeforces"
                                                                          },
                                                                          {
-                                                                             "href":  "https://www.codechef.com/users/baalaa06",
+                                                                             "href":  "https://www.codechef.com/users/baalaa_2006",
                                                                              "tooltipString":  "CodeChef",
-                                                                             "faIcon": "fa-solid fa-utensils"
+                                                                             "imgIcon": "https://cdn.simpleicons.org/codechef"
                                                                          }
                                                                      ],
                                                            "screenshots":  [

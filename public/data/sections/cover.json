@@ -47,9 +47,9 @@
                 },
                 {
                     "id": 5,
-                    "label": "Resume",
-                    "link": {"href": "https://drive.google.com/file/d/1QW3c5AfIHnUD0zfK9DqGJ48tFBSavQwa/view?usp=drive_link", "tooltipString": "download_resume"},
-                    "faIcon": "fa-solid fa-file-pdf"
+                    "label": "Codolio",
+                    "link": {"href": "https://codolio.com/profile/baalaa06", "tooltipString": "See codolio profile"},
+                    "faIcon": "fa-solid fa-code"
                 }
             ]
         },

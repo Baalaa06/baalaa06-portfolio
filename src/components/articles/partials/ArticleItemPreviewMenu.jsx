@@ -122,6 +122,7 @@ function ItemPreviewMenuCustomLinkButton({ link }) {
     const href = link.href
     const tooltip = link.tooltip
     const faIcon = link.faIcon
+    const imgIcon = link.imgIcon
 
     return (
         <Link href={href}
@@ -131,7 +132,8 @@ function ItemPreviewMenuCustomLinkButton({ link }) {
                             size={CircularButton.Sizes.EXTRA_EXTRA_LARGE}
                             className={`article-item-preview-menu-circular-button`}
                             tooltip={tooltip}
-                            faIcon={faIcon}/>
+                            faIcon={faIcon}
+                            imgIcon={imgIcon}/>
         </Link>
     )
 }

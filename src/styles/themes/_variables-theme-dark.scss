@@ -56,6 +56,8 @@ $scrollbar-track: rgba(30, 30, 60, 0.3);
 $scrollbar-thumb: rgba(99, 102, 241, 0.6);
 
 :root {
+    --circular-button-img-filter: brightness(0) invert(1);
+
     @include build-theme(
         // Theme Config...
         /** DARK MODE: **/                  true,

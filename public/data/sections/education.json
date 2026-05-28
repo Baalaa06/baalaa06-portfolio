@@ -35,6 +35,18 @@
                         "year": 2028,
                         "month": 1
                     },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://ds.study.iitm.ac.in/student/24f2000474",
+                                "tooltipString": "IITM Profile",
+                                "faIcon": "fa-solid fa-user-graduate"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "{{Bachelor of Science}} (B.S)",

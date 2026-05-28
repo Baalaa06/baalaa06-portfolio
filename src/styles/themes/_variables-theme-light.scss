@@ -60,6 +60,8 @@ $scrollbar-track: rgba(226, 232, 240, 0.5);
 $scrollbar-thumb: rgba(99, 102, 241, 0.4);
 
 [data-theme="light"] {
+    --circular-button-img-filter: brightness(0);
+
     @include build-theme(
         // Theme Config...
         /** DARK MODE: **/                  false,

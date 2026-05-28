@@ -13,6 +13,12 @@ button.circular-button {
         pointer-events: none;
         transition: 0.1s scale ease-in-out;
     }
+
+    img {
+        filter: var(--circular-button-img-filter);
+        user-select: none;
+        pointer-events: none;
+    }
 }
 
 /** Variants **/
