@@ -207,6 +207,88 @@
                     }
                 },
                 {
+                    "id": 7,
+                    "categoryId": "category_ml",
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#7c3aed",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/campus-help-agent",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://cit-campus-agent.streamlit.app",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Campus Help Agent",
+                            "text": "Production-ready <b>RAG-powered campus assistant</b> built with LangGraph, LangChain, ChromaDB, and Claude. Features an 11-node agentic pipeline with hallucination checking, human-in-the-loop approval, and LangSmith monitoring.",
+                            "tags": [
+                                "LangGraph",
+                                "LangChain",
+                                "Claude",
+                                "ChromaDB",
+                                "FastAPI",
+                                "RAG"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_ml",
+                    "img": "",
+                    "faIcon": "fa-solid fa-file-alt",
+                    "faIconColors": {
+                        "bg": "#059669",
+                        "fill": "#ffffff"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Baalaa06/recruit-exe",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://recruitexe-resume.streamlit.app/",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-globe"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Recruit.exe — AI Resume Intelligence Engine",
+                            "text": "AI-powered resume analyzer and recruiter assistant. Upload PDFs, match against job descriptions with <b>hybrid scoring</b> (semantic + skill overlap), and chat with an AI recruiter powered by <b>Llama 3.3 via Groq</b>.",
+                            "tags": [
+                                "Streamlit",
+                                "Llama 3.3",
+                                "ChromaDB",
+                                "Groq",
+                                "RAG",
+                                "NLP"
+                            ]
+                        }
+                    }
+                },
+                {
                     "id": 6,
                     "categoryId": "category_ml",
                     "img": "",
